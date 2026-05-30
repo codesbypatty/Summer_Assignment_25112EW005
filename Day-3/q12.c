@@ -1,8 +1,9 @@
-//program to find gcd of two numbers
+//program to find lcm of 2 numbers
+//lcm=a*b/gcd
 #include <stdio.h>
 void main()
 {
-    int a,b,i,gcd;
+    int a,b,i,gcd,lcm;
     printf("enter first number");
     scanf("%d",&a);
     printf("enter second number");
@@ -12,5 +13,6 @@ void main()
         if(a%i==0&&b%i==0)
         gcd=i;
     }
-    printf("greatest common divisor of %d and %d is %d",a,b,gcd);
+    lcm = (a*b)/gcd;
+    printf("LCM of %d and %d is %d",a,b,lcm);
 }
