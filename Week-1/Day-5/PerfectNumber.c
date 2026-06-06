@@ -1,6 +1,4 @@
 //program to check whether a number is perfect or not
-
-
 #include <stdio.h>
 void main()
 {
