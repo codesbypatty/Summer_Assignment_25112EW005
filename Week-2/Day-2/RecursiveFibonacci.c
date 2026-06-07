@@ -23,4 +23,6 @@ int main()
     {
         printf("%d\t",fibonacci(i));
     }
+
+    return 0;
 }
