@@ -19,4 +19,6 @@ int main()
     scanf("%d",&n);
 
     printf("sum of digits of %d is %d",n,sum(n));
+
+    return 0;
 }

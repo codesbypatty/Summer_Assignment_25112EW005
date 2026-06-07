@@ -27,4 +27,6 @@ int main()
     scanf("%d",&n);
 
     printf("%d", reverse(n));
+
+    return 0;
 }
