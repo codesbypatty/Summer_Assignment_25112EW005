@@ -18,4 +18,6 @@ int main()
     }
 
     printf("the result of %d^%d is %d",x,n,result);
+
+    return 0;
 }

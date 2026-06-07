@@ -17,4 +17,6 @@ int main()
     }
 
     printf("Number of set bits in %d is %d",n2,i);
+
+    return 0;
 }

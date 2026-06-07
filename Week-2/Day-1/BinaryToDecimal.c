@@ -22,4 +22,6 @@ int main()
     }
 
     printf("%d is represented in decimal as %d",n1,s);
+
+    return 0;
 }
