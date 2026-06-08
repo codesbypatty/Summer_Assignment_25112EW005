@@ -1,4 +1,4 @@
-// program to print character triangle
+//program to Print repeated character pattern
 
 #include <stdio.h>
 int main()
@@ -12,11 +12,11 @@ int main()
     {
         for(j='A';j<=i;j++) // to print one line
         {
-            printf("%c\t",j);  // to print character
+            printf("%C\t",i);  // to print character
         }
         
-        printf("\n"); //to change line
+        printf("\n"); //to change line\
     }
-
+    
     return 0;
 }

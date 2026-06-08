@@ -1,4 +1,4 @@
-// program to print repeated number triangle paattern
+// program to Print reverse star pattern.
 
 #include <stdio.h>
 int main()
@@ -10,9 +10,9 @@ int main()
 
     for(i=1;i<=n;i++)
     {
-        for(j=1;j<=i;j++) // to print one line
+        for(j=n;j>=i;j--) // to print one line
         {
-            printf("%d\t",i);  // to print number
+            printf("*\t");  // to print number
         }
         
         printf("\n"); //to change line
