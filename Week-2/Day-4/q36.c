@@ -14,9 +14,9 @@ int main()
         {
             if(i==1||j==1||i==n||j==n)
             {
-                printf("*\t");
+                printf("*\t");   //to print borders
             }
-            else printf("\t");
+            else printf("\t");   //to print hollow spaces inside
         }
         printf("\n");
     }
