@@ -1,7 +1,5 @@
 // program to Print character pyramid.
 
-// program to Print number pyramid
-
 #include <stdio.h>
 int main()
 {
