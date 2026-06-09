@@ -26,7 +26,6 @@ int main()
     printf("prime");
     else
     printf("not prime");
-    
-    return 0;
 
+    return 0;
 }
